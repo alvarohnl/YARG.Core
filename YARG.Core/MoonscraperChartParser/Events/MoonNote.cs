@@ -251,7 +251,7 @@ namespace MoonscraperChartEditor.Song
         public bool IsHopo(float hopoThreshold)
         {
             // F + F || T + T = strum
-            return IsNaturalHopo(hopoThreshold) != forced;
+            return IsNaturalHopo(hopoThreshold);
         }
 
         /// <summary>
